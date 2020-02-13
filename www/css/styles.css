@@ -1,16 +1,91 @@
-.navbar-bg {
-    background-color: aquamarine;
+.page {
+    border: 10px;
+    border-color: black;
+    background: #F698B3;
+    text-align: center;
+}
+
+.tone { 
+width: 90%;
+height: 90%;
     
 }
 
-.navbar .title {
-    font-family:cursive;
-    
+.button {
+    text-align: right;
+    color: white;
+}
+
+#toneselect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    font-family: sans-serif;  
+    color: white; 
     
 }
 
-.bgimg-1 {
-    background-image: url(https://cdn3-www.dogtime.com/assets/uploads/2018/10/puppies-cover.jpg);
-    
+#toneselect a {
+ 
+    color: white; 
     
 }
+
+
+
+.page-content {
+    padding: 10px; 
+    text-align: center;
+    color: white; 
+    
+    
+   
+    
+}
+
+#Set {
+    font-family: sans-serif; 
+    color: white; 
+    font-size: 36px; 
+    font-family: 'Sriracha', cursive; 
+}
+
+#name {
+    font-family: sans-serif;
+    border-bottom: 2px solid black !important; 
+    text-align: left;
+     
+}
+
+#page2 {
+    border: 10px;
+    border-color: black;
+    background: #F698B3;
+    text-align: center;
+}
+
+.coffee {
+    width: 50%;
+    
+}
+
+.casual {
+    width: 50%;
+}
+
+.date {
+    width: 50%;
+}
+
+.fast {
+    width: 50%;
+}
+
+.local {
+    width: 50%;
+}
+
+.intl {
+    width: 50%;
+}
+
